@@ -478,4 +478,4 @@ LOka.on('guildMemberAdd', member => {
 
 
 
-LOka.login(process.env.TOKEN);
+LOka.client.login(process.env.TOKEN);
